@@ -97,7 +97,7 @@ public class Main {
 
 
         //Final calculation and displaying + Thanking the user for using the temperature and how to restart it
-        System.out.println("**** " + temperatureNumber + " degrees " + tempConvertingFROM + " is equal to " + df.format(finalTotal) + " degrees " + tempConvertingTO + "! ****");
+        System.out.println("**** " + df.format(temperatureNumber) + " degrees " + tempConvertingFROM + " is equal to " + df.format(finalTotal) + " degrees " + tempConvertingTO + "! ****");
         System.out.println("\n");
         System.out.println("Thank you for using the temperature converter! \nPlease restart the application if you would like to use it again!");
     }
